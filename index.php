@@ -6,14 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WJA Modulars</title>
 
-    <script src="http://code.jquery.com/jquery-3.6.0.js"></script>
-    <script>
-        $(function(){
-            $('.header').load("/header.html");
-            $('.footer').load("/footer.html");
-        });
-    </script>
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/index.css">
 
@@ -21,13 +13,13 @@
 
 <body>
 
-    <div class="header"></div>
+    <?php include('header.html') ?>
 
     <div class="left">
 
     </div>
 
-    <div class="footer"></div>
+    <?php include('footer.html') ?>
 
 </body>
 
