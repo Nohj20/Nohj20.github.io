@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.left{
+    position: inherit;
+    background-color: lightgrey;
+    background-size: cover;
+    height: calc(100vh - 80px);
+}
