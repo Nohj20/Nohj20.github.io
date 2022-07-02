@@ -12,6 +12,7 @@
     font-size: 16px;
     color: white;
     text-align: center;
+    font-weight: bold;
     padding: 14px 16px;
     text-decoration: none;
     transition: color .5s;
@@ -20,6 +21,7 @@
 
   #logo{
       float: left;
+      font-weight: bold;
   }
   
   .dropdown {
@@ -36,12 +38,12 @@
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    font-weight: bold;
   }
   
   .nav-bar a:hover, .dropdown:hover .dropbtn, #logo:hover {
     background-color: white;
     color: green;
-    font-weight: bold;
     cursor: pointer;
   }
   
