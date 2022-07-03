@@ -5,9 +5,42 @@ body{
     box-sizing: border-box;
 }
 
-.left{
+.bg{
     position: inherit;
     background-color: lightgrey;
     background-size: cover;
     height: calc(100vh - 80px);
+}
+
+.side-bar{
+    background-color: gray;
+    height: 100%;
+    width: 300px;
+    border: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.side-bar .profile-picture-wrapper{
+    border-radius: 120px;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    margin-top: 20px;
+    border: 5px solid white;
+}
+
+.side-bar .profile-name{
+    text-align: center;
+    color: white;
+}
+
+.side-bar .profile-name h2 span{
+    color: red;
+
+}
+.side-bar .profile-name h3 span{
+    color: orange;
 }
